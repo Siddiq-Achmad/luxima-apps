@@ -80,7 +80,7 @@ const RegisterView = () => {
                     <div><button type="submit">{isLoading ? 'Loading...' : 'Register'}</button></div>
                     
                 </form>
-                <div><p>Have an account? Sign in <Link href="/auth/login" className="__link">Here</Link></p></div>
+                <div><p>Have an account? Sign in <Link href="/auth/login" className="register_container__card__link">Here</Link></p></div>
                 
             </div>
             
